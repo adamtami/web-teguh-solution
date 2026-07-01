@@ -381,9 +381,90 @@ transition: all 0.2 ease;
   border-top: 1px solid #333;
   margin: 15px 0;
 }
-.footer-copyright {
+.footer-copyright {  
   font-size: 14px;
   color: #333;
   margin: 0;
   text-align: center;
 }
+
+@media screen and (max-width: 768px) {
+    
+
+    .header-container {
+        position: static !important; 
+        height: auto !important;    
+        flex-direction: column;
+        gap: 15px;
+        padding: 20px 15px;
+        text-align: center;
+        width: 100%;
+    }
+
+    .nav-item {
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+        width: 100%;
+    }
+
+
+    .hero-container {
+        margin-top: 20px !important;
+        padding: 40px 20px;
+        text-align: center;
+        box-sizing: border-box;
+    }
+
+
+    .hero-title {
+        font-size: 1.5rem !important; 
+        line-height: 1.3;
+    }
+
+    .hero-desc {
+        font-size: 0.9rem;
+    }
+
+    .layanan-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        padding: 0 20px;
+    }
+
+    .card-layanan {
+        width: 100%;
+        max-width: 340px;
+    }
+
+    .tentang-container {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        text-align: center;
+        gap: 20px;
+    }
+
+    .tentang-image {
+        width: 100% !important;
+        display: flex;
+        justify-content: center;
+    }
+
+    .tentang-img {
+        width: 100% !important; 
+        max-width: 340px !important;
+        height: auto !important;  
+        border-radius: 8px;         
+    }
+    
+
+    .tentang-list {
+        display: inline-block;
+        text-align: left;
+    }
+}
+
+
